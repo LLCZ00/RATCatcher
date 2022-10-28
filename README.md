@@ -58,5 +58,7 @@ Install from PyPI
 pip install ratcatcher
 ```
 ## Known Issues & TODO
+- For running on linux command line, *export PATH=~/.local/bin:$PATH* is required (or added to the end of *~/.profile*)
+- Packet capture fails on linux (permissions issue)
 - Ratcatcher is completely unaware of outgoing UDP packets. However they're still caught in the PCAP
 - Add DNS tunneling to omniserver
